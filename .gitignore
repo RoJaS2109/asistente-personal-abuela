@@ -2,6 +2,12 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
+*.gguf  # Modelos LLM (son grandes, mejor descargarlos aparte)
+*.onnx  # Modelos TTS
+*.db    # Bases de datos (usar .env para configurar rutas)
+.env    # Variables sensibles
+
 
 # C extensions
 *.so
